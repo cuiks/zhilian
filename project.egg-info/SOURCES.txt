@@ -1,0 +1,15 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+zhilian/__init__.py
+zhilian/items.py
+zhilian/main.py
+zhilian/middlewares.py
+zhilian/pipelines.py
+zhilian/settings.py
+zhilian/test.py
+zhilian/spiders/DataAnalysis.py
+zhilian/spiders/__init__.py
