@@ -34,7 +34,7 @@ class ZhilianSpider(scrapy.Spider):
     # url = base_url.format(now_position)
     start_urls = ['https://fe-api.zhaopin.com/c/i/sou?start=0&pageSize=60&cityId=530&workExperience=-1&education=-1&companyType=-1&employmentType=-1&jobWelfareTag=-1&kw=%E6%B8%B8%E6%88%8F%E8%BF%90%E8%90%A5&kt=3']
     # redis_key = 'zhihu:start_urls'
-
+    #
     def parse(self, response):
         for position in self.positions:
             url = self.base_url.format(position)
